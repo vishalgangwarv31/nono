@@ -1,0 +1,99 @@
+.trust-para{
+    position: absolute;
+    left: 10%;
+    top: 80%;
+    bottom: 80%;
+}
+
+.form-container {
+
+    margin: 3% 17%;
+    /* height: 430px; */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    font-family: "Inter";
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #252525;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 24px;
+    color: #252525;
+    font-family: "Poppins" ;
+}
+
+.form-input:focus {
+    border-color:#2b5542;
+    outline: none;
+    box-shadow: 0px 0px 5px #2b5542;
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #252525;
+    border-radius: 5px;
+    font-size: 24px;
+    resize: vertical;
+    min-height: 100px;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+.submit-button {
+    width: 40%;
+    padding: 10px;
+    background-color: #2b5542;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    left: 30%;
+    height: 60px;
+}
+
+.submit-button:hover {
+    background-color: #204536;
+}
+
+
+.form-container h2{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+    letter-spacing: 2%;
+}
+
+.contact-thank{
+    margin: 0 8%;
+    font-family: "Inter";
+    color: #25554D;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.map{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+}

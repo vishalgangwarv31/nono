@@ -1,0 +1,120 @@
+
+.footer {
+    /* margin-top: 20px; */
+    background: url('/assets/front/background.png') no-repeat center center;
+    background-size: cover;
+    padding: 40px 20px;
+    color: #333;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 20px;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .footer-logo {
+    flex: 1;
+  }
+  
+  .logo-image {
+    max-width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    font-family: "Inter", sans-serif;
+    min-width: 150px;
+  }
+  
+  .footer-section h4 {
+    margin-bottom: 10px;
+    color: #274760;
+    font-size: 24.273px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 34.06px; 
+    font-family: "Inter", sans-serif;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+    color: #274760;
+    font-size: 24.273px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32.06px; 
+    font-family: "Inter", sans-serif;
+  }
+  
+  .footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .footer-links p {
+    margin: 0 10px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+  }
+  
+  .footer-links p:hover {
+    text-decoration: underline;
+  }
+
+  .big-right{
+    margin-left: 20px;
+  }
+  
+  @media screen and (max-width: 1100px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footer-section {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .footer-bottom {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .footer-links {
+      margin-top: 10px;
+    }
+
+    
+  }
+  
+  @media screen and (max-width: 480px) {
+    .logo-image {
+      max-width: 80px;
+    }
+  
+    .footer-section h4 {
+      font-size: 14px;
+    }
+  
+    .footer-section p {
+      font-size: 12px;
+    }
+  }
+  

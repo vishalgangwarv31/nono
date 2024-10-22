@@ -1,0 +1,233 @@
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8%;
+    margin-right: 8%;
+    flex-direction: column;
+}
+
+.about-header{
+    color: #25554D;
+    font-family: "Inter";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-para{
+    color: #274760;
+text-align: justify;
+font-family: "Poppins";
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+
+.team-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+
+.team-para{
+    color: #526C80;
+text-align: justify;
+font-family: "Inter";
+font-size: 24.477px;
+font-style: normal;
+font-weight: 400;
+line-height: 34px; 
+}
+
+
+/* ``````````````````````````````````````````` */
+
+.team-container-tile {
+    display: grid;
+    margin-left: 8%;
+    margin-right: 8%;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+
+.team-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-image {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.team-name {
+    color: #435653;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.28px;
+    margin-bottom: 0;
+}
+
+.team-position {
+    color: #212122;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.48px;
+    
+
+}
+
+.team-spec {
+    color: #212122;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.4px;
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #0077b5; 
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #004182; 
+}
+
+
+.team-container-tile {
+    display: grid;
+    margin-left: 8%;
+    margin-right: 8%;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+
+.team-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.team-image {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.team-name {
+    color: #435653;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.team-position {
+    color: #212122;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.team-spec {
+    color: #212122;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #0077b5; /* LinkedIn color */
+    font-size: 20px;
+    height: 60px;
+    width: 60px;
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #004182; 
+}
+
+@media (max-width: 968px) {
+    .team-container-tile {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 680px) {
+    .team-container-tile {
+        grid-template-columns: 1fr;
+    }
+
+    .team-image {
+        width: 120px;
+        height: 120px;
+    }
+}
