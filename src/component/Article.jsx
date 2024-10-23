@@ -8,7 +8,7 @@ const Article = (props) => {
                         <span key={index}>
                             {line}
                             <br />
-                        </span>
+                        </span  >
                     ))}
                 </p>
             </div>
